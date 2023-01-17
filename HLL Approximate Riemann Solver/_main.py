@@ -282,10 +282,10 @@ for nt in range(Nt):
 np.save(os.path.join('data', 'U'), U)
 
 plt.figure(figsize=(2*6.4, 2*4.8))
-plt.title('Density at t = %.3f' % t)
+plt.title('Density at t = %.2f' % t)
 xx, yy = np.meshgrid(x, y)
 cmap = plt.get_cmap('viridis')
-levels = np.linspace(np.min(np.min(U[:, :, 0])), np.max(np.max(U[:, :, 0])), 30)
+levels = np.linspace(0.54, 1.7, 30)
 plt.contour(xx, yy, np.transpose(U[:, :, 0]), cmap=cmap, levels=levels)
 plt.colorbar()
 plt.axis('equal')
