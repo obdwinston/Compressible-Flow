@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 nx = 400
 ny = 400
-x = np.linspace(-1, 1., nx)
-y = np.linspace(-1, 1., ny)
+x = np.linspace(-1., 1., nx)
+y = np.linspace(-1., 1., ny)
 dx = x[1] - x[0]
 dy = y[1] - y[0]
 dt = .1*min(dx, dy)
@@ -32,7 +32,7 @@ Uw_bar = np.zeros((nx, ny, 4))
 Nx = int(nx/2)
 Ny = int(ny/2)
 
-r[Nx:, Ny:] = 0.5313
+r[Nx:, Ny:] = .5313
 u[Nx:, Ny:] = 0
 v[Nx:, Ny:] = 0
 p[Nx:, Ny:] = .4
