@@ -1,6 +1,6 @@
 # HLL Approximate Riemann Solver
 
-![Figure 1](https://user-images.githubusercontent.com/104728656/212996503-d99c18e5-fa19-4e66-a0b4-9e77586693d8.png)
+![density_compare](https://user-images.githubusercontent.com/104728656/212997091-da0f880d-1f8e-47fe-a357-d144aa032417.png)
 
 **Domain Parameters**
 
