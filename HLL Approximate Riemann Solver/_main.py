@@ -283,6 +283,8 @@ np.save(os.path.join('data', 'U'), U)
 
 plt.figure(figsize=(2*6.4, 2*4.8))
 plt.title('Density at t = %.2f' % t)
+plt.xlabel('x')
+plt.ylabel('y')
 xx, yy = np.meshgrid(x, y)
 cmap = plt.get_cmap('viridis')
 levels = np.linspace(.54, 1.7, 30)
