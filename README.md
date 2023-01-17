@@ -1,5 +1,7 @@
 # HLL Approximate Riemann Solver
 
+![density_compare](https://user-images.githubusercontent.com/104728656/212996503-d99c18e5-fa19-4e66-a0b4-9e77586693d8.png)
+
 **Domain Parameters**
 
 | Parameter     | Value             |
