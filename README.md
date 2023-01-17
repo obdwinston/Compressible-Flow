@@ -1,6 +1,17 @@
 # HLL Approximate Riemann Solver
 
+**Domain Parameters**
+
+| Parameter     | Value             |
+| :---:         | :---:             |
+| $L_x$         | x $\in$ [-1, 1]   |
+| $L_y$         | y $\in$ [-1, 1]   |
+| $L_t$         | t $\in$ [0, 0.52] |
+| $n_x$         | 400               |
+| $n_y$         | 400               |
+
 **Initial Conditions**
+
 | Quadrant      | $\rho_0(x,y)$ | $u_0(x,y)$    | $v_0(x,y)$    | $p_0(x,y)$    |
 | :---:         | :---:         | :---:         | :---:         | :---:         |
 | $x>0, y>0$    | 0.5313        | 0.0           | 0.0           | 0.4           |
