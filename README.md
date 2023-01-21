@@ -4,13 +4,13 @@
 
 **Domain Parameters**
 
-| Parameter     | Value                     |
-| :---:         | :---:                     |
-| $L_x$         | $\tilde{x} \in$ [-1, 1]   |
-| $L_y$         | $\tilde{y} \in$ [-1, 1]   |
-| $L_t$         | $\tilde{t} \in$ [0, 5.0]  |
-| $n_x$         | 200                       |
-| $n_y$         | 200                       |
+| Parameter     | Value                       |
+| :---:         | :---:                       |
+| $L_x$         | $\tilde{x} \in$ [-1.0, 1.0] |
+| $L_y$         | $\tilde{y} \in$ [-1.0, 1.0] |
+| $L_t$         | $\tilde{t} \in$ [0.0, 5.0]  |
+| $n_x$         | 200                         |
+| $n_y$         | 200                         |
 
 **Initial Conditions**
 
@@ -27,13 +27,13 @@
 
 **Domain Parameters**
 
-| Parameter     | Value             |
-| :---:         | :---:             |
-| $L_x$         | x $\in$ [-1, 1]   |
-| $L_y$         | y $\in$ [-1, 1]   |
-| $L_t$         | t $\in$ [0, 0.52] |
-| $n_x$         | 400               |
-| $n_y$         | 400               |
+| Parameter     | Value               |
+| :---:         | :---:               |
+| $L_x$         | x $\in$ [-1.0, 1.0] |
+| $L_y$         | y $\in$ [-1.0, 1.0] |
+| $L_t$         | t $\in$ [0.0, 0.52] |
+| $n_x$         | 400                 |
+| $n_y$         | 400                 |
 
 **Initial Conditions**
 
