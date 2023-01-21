@@ -1,6 +1,29 @@
 # HLL Approximate Riemann Solver
 
-![density_compare](https://user-images.githubusercontent.com/104728656/212997091-da0f880d-1f8e-47fe-a357-d144aa032417.png)
+## Solver Simulation
+
+**Domain Parameters**
+
+| Parameter     | Value                     |
+| :---:         | :---:                     |
+| $L_x$         | $\tilde{x} \in$ [-1, 1]   |
+| $L_y$         | $\tilde{y} \in$ [-1, 1]   |
+| $L_t$         | $\tilde{t} \in$ [0, 5.0]  |
+| $n_x$         | 200                       |
+| $n_y$         | 200                       |
+
+**Initial Conditions**
+
+| Parameter             | Value              |
+| :---:                 | :---:              |
+| $\tilde{\rho}_\infty$ | 1.0                |
+| $\tilde{u}_\infty$    | $M_\infty^x$ = 1.2 |
+| $\tilde{v}_\infty$    | $M_\infty^x$ = 0.0 |
+| $\tilde{p}_\infty$    | 1.0 / $\gamma$     |
+
+## Solver Verification
+
+![Figure 2](https://user-images.githubusercontent.com/104728656/213871643-a3c32857-ff93-4d02-932e-e641346562ee.png)
 
 **Domain Parameters**
 
@@ -16,9 +39,11 @@
 
 | Quadrant      | $\rho_0(x,y)$ | $u_0(x,y)$    | $v_0(x,y)$    | $p_0(x,y)$    |
 | :---:         | :---:         | :---:         | :---:         | :---:         |
-| $x>0, y>0$    | 0.5313        | 0.0           | 0.0           | 0.4           |
-| $x<0, y>0$    | 1.0           | 0.7276        | 0.0           | 1.0           |
-| $x<0, y<0$    | 0.8           | 0.0           | 0.0           | 1.0           |
-| $x>0, y<0$    | 1.0           | 0.0           | 0.7276        | 1.0           |
+| x>0, y>0      | 0.5313        | 0.0           | 0.0           | 0.4           |
+| x<0, y>0      | 1.0           | 0.7276        | 0.0           | 1.0           |
+| x<0, y<0      | 0.8           | 0.0           | 0.0           | 1.0           |
+| x>0, y<0      | 1.0           | 0.0           | 0.7276        | 1.0           |
 
-![image](https://user-images.githubusercontent.com/104728656/212928586-139c3e6c-2682-4f25-aff8-03fd80fe8af1.png)
+## Solver Theory
+
+![Figure 3](https://user-images.githubusercontent.com/104728656/213872397-aaa42bca-244a-4216-bf62-d158abddaddd.png)
