@@ -2,6 +2,8 @@
 
 ## Solver Simulation
 
+Simulation and troubleshooting in progress.
+
 **Domain Parameters**
 
 | Parameter     | Value                           |
