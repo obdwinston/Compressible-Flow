@@ -130,7 +130,7 @@ def get_yflux(i, j, Un_bar, Us_bar):
 
 Nt = int(t/dt)
 for nt in range(Nt):
-    print('%d of %d' % (nt, Nt))
+    print('%d of %d (%.3f%%)' % (nt, Nt, nt/Nt*100))
     
     ############
     ## Step 1 ## : Reconstruct data and boundary extrapolated values
