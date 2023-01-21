@@ -4,20 +4,22 @@
 
 **Domain Parameters**
 
-| Parameter     | Value                       |
-| :---:         | :---:                       |
-| $L_x$         | $\tilde{x} \in$ [-1.0, 1.0] |
-| $L_y$         | $\tilde{y} \in$ [-1.0, 1.0] |
-| $L_t$         | $\tilde{t} \in$ [0.0, 5.0]  |
-| $n_x$         | 200                         |
-| $n_y$         | 200                         |
+| Parameter     | Value                           |
+| :---:         | :---:                           |
+| $L_x$         | $\tilde{x} \in$ [-1.0, 1.0]     |
+| $L_y$         | $\tilde{y} \in$ [-1.0, 1.0]     |
+| $L_t$         | $\tilde{t} \in$ [0.0, 5.0]      |
+| $D_x$         | $\tilde{d}_x \in$ [-0.03, 0.03] |
+| $D_y$         | $\tilde{d}_y \in$ [-0.03, 0.03] |
+| $n_x$         | 200                             |
+| $n_y$         | 200                             |
 
 **Initial Conditions**
 
 | Parameter             | Value              |
 | :---:                 | :---:              |
 | $\tilde{\rho}_\infty$ | 1.0                |
-| $\tilde{u}_\infty$    | $M_\infty^x$ = 1.2 |
+| $\tilde{u}_\infty$    | $M_\infty^x$ = 1.5 |
 | $\tilde{v}_\infty$    | $M_\infty^y$ = 0.0 |
 | $\tilde{p}_\infty$    | 1.0 / $\gamma$     |
 
