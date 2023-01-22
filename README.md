@@ -2,7 +2,7 @@
 
 ## Solver Simulation
 
-Simulation and troubleshooting in progress.
+Simulation and in progress.
 
 **Domain Parameters**
 
@@ -10,7 +10,7 @@ Simulation and troubleshooting in progress.
 | :---:         | :---:                           |
 | $L_x$         | $\tilde{x} \in$ [-1.0, 1.0]     |
 | $L_y$         | $\tilde{y} \in$ [-1.0, 1.0]     |
-| $L_t$         | $\tilde{t} \in$ [0.0, 5.0]      |
+| $L_t$         | $\tilde{t} \in$ [0.0, 10.0]     |
 | $D_x$         | $\tilde{d}_x \in$ [-0.05, 0.05] |
 | $D_y$         | $\tilde{d}_y \in$ [-0.05, 0.05] |
 | $n_x$         | 200                             |
@@ -50,4 +50,4 @@ Simulation and troubleshooting in progress.
 
 ## Solver Theory
 
-![Figure 3](https://user-images.githubusercontent.com/104728656/213872397-aaa42bca-244a-4216-bf62-d158abddaddd.png)
+![Figure 3](https://user-images.githubusercontent.com/104728656/213912526-0f8e38b9-c59e-4f8f-b262-4ef3942b724a.png)
