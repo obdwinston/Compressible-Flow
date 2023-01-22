@@ -2,7 +2,7 @@
 
 ## Solver Simulation
 
-Simulation and in progress.
+Simulation in progress.
 
 **Domain Parameters**
 
