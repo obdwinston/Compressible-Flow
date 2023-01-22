@@ -54,6 +54,31 @@ Simulation in progress.
 
 # HLLC Approximate Riemann Solver
 
+## Solver Simulation
+
+Simulation in progress.
+
+**Domain Parameters**
+
+| Parameter     | Value                           |
+| :---:         | :---:                           |
+| $L_x$         | $\tilde{x} \in$ [-1.0, 1.0]     |
+| $L_y$         | $\tilde{y} \in$ [-1.0, 1.0]     |
+| $L_t$         | $\tilde{t} \in$ [0.0, 10.0]     |
+| $D_x$         | $\tilde{d}_x \in$ [-0.05, 0.05] |
+| $D_y$         | $\tilde{d}_y \in$ [-0.05, 0.05] |
+| $n_x$         | 200                             |
+| $n_y$         | 200                             |
+
+**Initial Conditions**
+
+| Parameter             | Value              |
+| :---:                 | :---:              |
+| $\tilde{\rho}_\infty$ | 1.0                |
+| $\tilde{u}_\infty$    | $M_\infty^x$ = 1.0 |
+| $\tilde{v}_\infty$    | $M_\infty^y$ = 0.0 |
+| $\tilde{p}_\infty$    | 1.0 / $\gamma$     |
+
 ## Solver Theory
 
 ![image](https://user-images.githubusercontent.com/104728656/213938242-5963e80b-1182-4f66-b4c0-4bdfb1c39675.png)
