@@ -2,6 +2,8 @@
 
 ## Solver Simulation
 
+In progress.
+
 **Domain Parameters**
 
 | Parameter     | Value                           |
@@ -25,7 +27,7 @@
 
 ## Solver Verification
 
-![Figure 1](https://user-images.githubusercontent.com/104728656/213871643-a3c32857-ff93-4d02-932e-e641346562ee.png)
+![image](https://user-images.githubusercontent.com/104728656/213871643-a3c32857-ff93-4d02-932e-e641346562ee.png)
 
 **Domain Parameters**
 
@@ -48,13 +50,13 @@
 
 ## Solver Theory
 
-![Figure 2](https://user-images.githubusercontent.com/104728656/213934284-83daed63-1ea6-4ae4-8d5b-e226452ea98a.png)
+![image](https://user-images.githubusercontent.com/104728656/213946913-f215a67c-e301-482a-b169-c120446f8275.png)
 
 # HLLC Approximate Riemann Solver
 
 ## Solver Simulation
 
-Simulation and troubleshooting in progress.
+In progress.
 
 **Domain Parameters**
 
@@ -79,4 +81,4 @@ Simulation and troubleshooting in progress.
 
 ## Solver Theory
 
-![Figure 3](https://user-images.githubusercontent.com/104728656/213939404-08629537-9c31-4c8c-aeb5-e851263d8674.png)
+![image](https://user-images.githubusercontent.com/104728656/213946948-68cba141-9897-43f8-881f-85fcdab2c22b.png)
