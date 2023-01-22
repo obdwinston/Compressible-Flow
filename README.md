@@ -2,8 +2,6 @@
 
 ## Solver Simulation
 
-https://user-images.githubusercontent.com/104728656/213941661-5b321086-078d-4468-8946-3ace7f2c9c90.mp4
-
 **Domain Parameters**
 
 | Parameter     | Value                           |
