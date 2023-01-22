@@ -50,4 +50,4 @@ Simulation in progress.
 
 ## Solver Theory
 
-![Figure 3](https://user-images.githubusercontent.com/104728656/213913301-81ac5321-37cb-4cd8-8045-60dc89fc8345.png)
+![Figure 3](https://user-images.githubusercontent.com/104728656/213934284-83daed63-1ea6-4ae4-8d5b-e226452ea98a.png)
