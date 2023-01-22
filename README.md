@@ -51,3 +51,9 @@ Simulation in progress.
 ## Solver Theory
 
 ![Figure 3](https://user-images.githubusercontent.com/104728656/213934284-83daed63-1ea6-4ae4-8d5b-e226452ea98a.png)
+
+# HLLC Approximate Riemann Solver
+
+## Solver Theory
+
+![image](https://user-images.githubusercontent.com/104728656/213938242-5963e80b-1182-4f66-b4c0-4bdfb1c39675.png)
