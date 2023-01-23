@@ -50,7 +50,7 @@ In progress.
 
 ## Solver Theory
 
-![image](https://user-images.githubusercontent.com/104728656/213946913-f215a67c-e301-482a-b169-c120446f8275.png)
+![image](https://user-images.githubusercontent.com/104728656/213981312-e6ba28d0-b8ac-4c0a-b1e3-c3993dc08189.png)
 
 # HLLC Approximate Riemann Solver
 
@@ -81,4 +81,4 @@ In progress.
 
 ## Solver Theory
 
-![image](https://user-images.githubusercontent.com/104728656/213946948-68cba141-9897-43f8-881f-85fcdab2c22b.png)
+![image](https://user-images.githubusercontent.com/104728656/213981397-6b5dfabd-97ae-4c3a-bc0c-508f74820e9b.png)
