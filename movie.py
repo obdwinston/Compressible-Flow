@@ -40,4 +40,4 @@ image = []
 for nt in range(Nt):
     image.append(os.path.join(figure, 'U{:d}.png'.format(nt)))
 clip = mpy.ImageSequenceClip(image, fps=int(Nt/10))
-clip.write_videofile('video.mp4')
+clip.write_videofile('movie.mp4')
