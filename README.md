@@ -65,7 +65,7 @@ In progress.
 | $L_x$         | $\tilde{x} \in$ [-1.0, 1.0]     |
 | $L_y$         | $\tilde{y} \in$ [-1.0, 1.0]     |
 | $L_t$         | $\tilde{t} \in$ [0.0, 10.0]     |
-| $D_x$         | $\tilde{d}_x \in$ [-0.01, 0.01] |
+| $D_x$         | $\tilde{d}_x \in$ [-0.05, 0.05] |
 | $D_y$         | $\tilde{d}_y \in$ [-0.01, 0.01] |
 | $n_x$         | 200                             |
 | $n_y$         | 200                             |
