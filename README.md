@@ -56,7 +56,7 @@ In progress.
 
 ## Solver Simulation
 
-In progress.
+https://user-images.githubusercontent.com/104728656/214215044-9869bdbd-c677-4f9b-9b7e-4b7843329034.mp4
 
 **Domain Parameters**
 
@@ -64,9 +64,9 @@ In progress.
 | :---:         | :---:                           |
 | $L_x$         | $\tilde{x} \in$ [-1.0, 1.0]     |
 | $L_y$         | $\tilde{y} \in$ [-1.0, 1.0]     |
-| $L_t$         | $\tilde{t} \in$ [0.0, 10.0]     |
-| $D_x$         | $\tilde{d}_x \in$ [-0.05, 0.05] |
-| $D_y$         | $\tilde{d}_y \in$ [-0.05, 0.05] |
+| $L_t$         | $\tilde{t} \in$ [0.0, 5.0]      |
+| $D_x$         | $\tilde{d}_x \in$ [-0.01, 0.01] |
+| $D_y$         | $\tilde{d}_y \in$ [-0.01, 0.01] |
 | $n_x$         | 200                             |
 | $n_y$         | 200                             |
 
