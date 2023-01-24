@@ -2,7 +2,7 @@
 
 ## Solver Simulation
 
-In progress.
+https://user-images.githubusercontent.com/104728656/214221601-bd645a5d-b33f-44d4-9205-7edef556ed84.mp4
 
 **Domain Parameters**
 
