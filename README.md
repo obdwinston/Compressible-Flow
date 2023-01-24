@@ -75,7 +75,7 @@ In progress.
 | Parameter             | Value              |
 | :---:                 | :---:              |
 | $\tilde{\rho}_\infty$ | 1.0                |
-| $\tilde{u}_\infty$    | $M_\infty^x$ = 1.0 |
+| $\tilde{u}_\infty$    | $M_\infty^x$ = 1.2 |
 | $\tilde{v}_\infty$    | $M_\infty^y$ = 0.0 |
 | $\tilde{p}_\infty$    | 1.0 / $\gamma$     |
 
