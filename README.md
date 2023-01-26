@@ -81,4 +81,4 @@ https://user-images.githubusercontent.com/104728656/214553862-ed1501ee-a27f-4405
 
 ## Solver Theory
 
-![image](https://user-images.githubusercontent.com/104728656/213981397-6b5dfabd-97ae-4c3a-bc0c-508f74820e9b.png)
+![image](https://user-images.githubusercontent.com/104728656/214886975-30777a31-4ea4-44cc-9aae-9a384c6969d4.png)
