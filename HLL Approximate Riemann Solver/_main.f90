@@ -227,11 +227,18 @@ program euler
                     vij = v(i, j)
                     pij = p(i, j)
                     Eij = .5*rij*(uij*uij + vij*vij) + pij/(g - 1)
-
+                    
+                    ! Step 3a : Solve x-split Riemann problem
+                    
                     Fw = get_xflux(i, j, Qeb, Qwb)
                     Fe = get_xflux(i + 1, j, Qeb, Qwb)
+                    
+                    ! Step 3b : Solve y-split Riemann problem
+                    
                     Gs = get_yflux(i, j, Qnb, Qsb)
                     Gn = get_yflux(i, j + 1, Qnb, Qsb)
+                    
+                    ! Step 3c : Update solution
 
                     Q(i, j, :) = (/rij, rij*uij, rij*vij, Eij/) + (dt/dx)*(Fw - Fe) + (dt/dy)*(Gs - Gn)
                     
