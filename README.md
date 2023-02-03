@@ -1,5 +1,3 @@
-https://user-images.githubusercontent.com/104728656/215269438-5b5d8ce4-90b9-4cb3-b2c9-84057567b646.mp4
-
 # HLL Approximate Riemann Solver
 
 https://user-images.githubusercontent.com/104728656/215265995-4928992b-e33f-423a-94d8-b56625bb4769.mp4
