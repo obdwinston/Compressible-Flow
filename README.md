@@ -4,15 +4,15 @@ https://user-images.githubusercontent.com/104728656/215265995-4928992b-e33f-423a
 
 **Domain Parameters**
 
-| Parameter     | Value                             |
-| :---:         | :---:                             |
-| $L_x$         | $\tilde{x} \in$ [-1.0, 1.0]       |
-| $L_y$         | $\tilde{y} \in$ [-1.0, 1.0]       |
-| $L_t$         | $\tilde{t} \in$ [0.0, 10.0]       |
-| $D_x$         | $\tilde{d}_x \in$ [-0.020, 0.030] |
-| $D_y$         | $\tilde{d}_y \in$ [-0.049, 0.051] |
-| $n_x$         | 200                               |
-| $n_y$         | 200                               |
+| Parameter     | Value                    |
+| :---:         | :---:                    |
+| $L_x$         | $x \in$ [-1.0, 1.0]      |
+| $L_y$         | $y \in$ [-1.0, 1.0]      |
+| $L_t$         | $t \in$ [0.0, 10.0]      |
+| $D_x$         | $d_x \in$ [-0.60, -0.40] |
+| $D_y$         | $d_y \in$ [-0.02, 0.02]  |
+| $n_x$         | 200                      |
+| $n_y$         | 200                      |
 
 **Initial Conditions**
 
@@ -27,19 +27,21 @@ https://user-images.githubusercontent.com/104728656/215265995-4928992b-e33f-423a
 
 # HLLC Approximate Riemann Solver
 
+## Structured Grid
+
 https://user-images.githubusercontent.com/104728656/215268445-400de7f4-adea-485c-b2d5-7ada80ffddfb.mp4
 
 **Domain Parameters**
 
-| Parameter     | Value                             |
-| :---:         | :---:                             |
-| $L_x$         | $\tilde{x} \in$ [-1.0, 1.0]       |
-| $L_y$         | $\tilde{y} \in$ [-1.0, 1.0]       |
-| $L_t$         | $\tilde{t} \in$ [0.0, 10.0]       |
-| $D_x$         | $\tilde{d}_x \in$ [-0.020, 0.030] |
-| $D_y$         | $\tilde{d}_y \in$ [-0.049, 0.051] |
-| $n_x$         | 200                               |
-| $n_y$         | 200                               |
+| Parameter     | Value                    |
+| :---:         | :---:                    |
+| $L_x$         | $x \in$ [-1.0, 1.0]      |
+| $L_y$         | $y \in$ [-1.0, 1.0]      |
+| $L_t$         | $t \in$ [0.0, 10.0]      |
+| $D_x$         | $d_x \in$ [-0.60, -0.40] |
+| $D_y$         | $d_y \in$ [-0.02, 0.02]  |
+| $n_x$         | 200                      |
+| $n_y$         | 200                      |
 
 **Initial Conditions**
 
@@ -51,3 +53,27 @@ https://user-images.githubusercontent.com/104728656/215268445-400de7f4-adea-485c
 | $\tilde{p}_\infty$    | 1.0 / $\gamma$     |
 
 ![image](https://user-images.githubusercontent.com/104728656/218246064-1b87e775-c30a-4d11-9ceb-2375cfed20bd.png)
+
+## Unstructured Grid
+
+**Domain Parameters**
+
+| Parameter     | Value                    |
+| :---:         | :---:                    |
+| $L_x$         | $x \in$ [-1.0, 1.0]      |
+| $L_y$         | $y \in$ [-1.0, 1.0]      |
+| $L_t$         | $t \in$ [0.0, 10.0]      |
+| $D_x$         | $d_x \in$ [-0.55, -0.45] |
+| $D_y$         | $d_y \in$ [-0.05, 0.05]  |
+| $n_c$         | ~6000                    |
+
+**Initial Conditions**
+
+| Parameter             | Value              |
+| :---:                 | :---:              |
+| $\tilde{\rho}_\infty$ | 1.0                |
+| $\tilde{u}_\infty$    | $M_\infty^x$ = 1.0 |
+| $\tilde{v}_\infty$    | $M_\infty^y$ = 0.0 |
+| $\tilde{p}_\infty$    | 1.0 / $\gamma$     |
+
+![image](https://user-images.githubusercontent.com/104728656/218268771-d0b05f28-8f86-4c4f-8f71-b6dc44cdd9e4.png)
