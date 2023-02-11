@@ -1,11 +1,5 @@
 # HLLC Approximate Riemann Solver
 
-## Unstructured Grid
-
-![image](https://user-images.githubusercontent.com/104728656/218246770-eb6e2c69-2c12-4585-9c07-c8d2cae3d137.png)
-
-## Structured Grid
-
 https://user-images.githubusercontent.com/104728656/215268445-400de7f4-adea-485c-b2d5-7ada80ffddfb.mp4
 
 **Domain Parameters**
