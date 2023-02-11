@@ -1,0 +1,55 @@
+import os
+import sys
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.interpolate import griddata
+import moviepy.editor as mpy
+
+x1 = -1.
+x2 = 1.
+y1 = -1.
+y2 = 1.
+res = 1000 # resolution
+
+t = 5.
+dt = 1e-5
+nint = 1000
+
+folder = 'data'
+file = 'density'
+movie = 'movie.mp4'
+
+plt.figure(figsize=(2*6.4, 2*4.8))
+N = int(t/dt) + 1
+for n in range(1, N):
+    if n % nint == 0:
+        print(n, N)
+
+        read = open(os.path.join(sys.path[0], folder, file + '{:010d}.txt'.format(n))).readlines()
+        
+        values = []
+        points = []
+        for line in read:
+            ccx = float(line.split()[0])
+            ccy = float(line.split()[1])
+            
+            values.append(line.split()[2])
+            points.append([ccx, ccy])
+
+        plt.title('Density at t = %.3f' % (n*dt))
+        plt.xlabel('x')
+        plt.ylabel('y')
+        grid_x, grid_y = np.mgrid[x1:x2:complex(0, res), y1:y2:complex(0, res)]
+        grid_z = griddata(points, values, (grid_x, grid_y), method='linear')
+        plt.imshow(grid_z.T, extent=(x1,x2,y1,y2), origin='lower', cmap='jet')
+        plt.colorbar()
+        plt.axis('equal')
+        plt.savefig(os.path.join(sys.path[0], folder, file + '{:010d}.png'.format(n)))
+        plt.clf()
+
+image = []
+for n in range(1, N):
+    if n % nint == 0:
+        image.append(os.path.join(sys.path[0], folder, file + '{:010d}.png'.format(n)))
+clip = mpy.ImageSequenceClip(image, fps=int(len(image)/10))
+clip.write_videofile(movie)
