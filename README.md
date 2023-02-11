@@ -2,7 +2,7 @@
 
 ## Unstructured Grid
 
-![image](https://user-images.githubusercontent.com/104728656/218246169-55b8103b-3d1c-40d2-b63b-8bbeed0c1fc5.png)
+![image](https://user-images.githubusercontent.com/104728656/218246770-eb6e2c69-2c12-4585-9c07-c8d2cae3d137.png)
 
 ## Structured Grid
 
