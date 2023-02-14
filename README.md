@@ -60,13 +60,14 @@ https://user-images.githubusercontent.com/104728656/218763759-384362fb-b407-4b05
 
 **Domain Parameters**
 
-| Parameter     | Value                    |
-| :---:         | :---:                    |
-| $L_x$         | $x \in$ [-1.0, 1.0]      |
-| $L_y$         | $y \in$ [-1.0, 1.0]      |
-| $L_t$         | $t \in$ [0.0, 5.0]       |
-| $D_r$         | 0.04                     |
-| $n_c$         | ~26000                   |
+| Parameter     | Value               |
+| :---:         | :---:               |
+| $L_x$         | $x \in$ [-1.0, 1.0] |
+| $L_y$         | $y \in$ [-1.0, 1.0] |
+| $L_t$         | $t \in$ [0.0, 5.0]  |
+| Radius        | 0.02                |
+| Centre        | -0.50               |
+| Cells         | ~26000              |
 
 **Initial Conditions**
 
