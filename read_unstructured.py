@@ -54,5 +54,5 @@ image = []
 for n in range(1, N):
     if n % nint == 0:
         image.append(os.path.join(sys.path[0], folder, file + '{:010d}.png'.format(n)))
-clip = mpy.ImageSequenceClip(image, fps=int(len(image)/5))
+clip = mpy.ImageSequenceClip(image, fps=int(len(image)/t))
 clip.write_videofile(movie)
