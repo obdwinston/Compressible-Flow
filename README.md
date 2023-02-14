@@ -56,8 +56,6 @@ https://user-images.githubusercontent.com/104728656/215268445-400de7f4-adea-485c
 
 ## Unstructured Grid
 
-https://user-images.githubusercontent.com/104728656/218763759-384362fb-b407-4b05-b78e-da8fd6f1deca.mp4
-
 **Domain Parameters**
 
 | Parameter     | Value                        |
