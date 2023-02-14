@@ -2,7 +2,7 @@ program euler
     
     implicit none
 
-    real, parameter :: t = 5.
+    real, parameter :: t = 10.
     real, parameter :: dt = 1e-4
     integer, parameter :: nt = 100 ! save interval
 
