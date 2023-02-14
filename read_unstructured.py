@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import griddata
 import moviepy.editor as mpy
 
-t = 5.
+t = 10.
 dt = 1e-4
 nint = 100
 
