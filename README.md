@@ -67,14 +67,14 @@ https://user-images.githubusercontent.com/104728656/219235803-acf27799-3b23-4881
 | $L_t$         | $t \in$ [0.0, 5.0]           |
 | Radius        | $r_c$ = 0.02                 |
 | Centre        | ($x_c$, $y_c$) = (-0.5, 0.0) |
-| Cells         | $n_{cells}$ ≈ 26000          |
+| Cells         | $n_{cells}$ ≈ 100000         |
 
 **Initial Conditions**
 
 | Parameter             | Value              |
 | :---:                 | :---:              |
 | $\tilde{\rho}_\infty$ | 1.0                |
-| $\tilde{u}_\infty$    | $M_\infty^x$ = 1.2 |
+| $\tilde{u}_\infty$    | $M_\infty^x$ = 1.0 |
 | $\tilde{v}_\infty$    | $M_\infty^y$ = 0.0 |
 | $\tilde{p}_\infty$    | 1.0 / $\gamma$     |
 
