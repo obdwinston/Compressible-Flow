@@ -64,8 +64,8 @@ https://user-images.githubusercontent.com/104728656/219235803-acf27799-3b23-4881
 | :---:         | :---:                        |
 | $L_x$         | $x \in$ [-1.0, 1.0]          |
 | $L_y$         | $y \in$ [-1.0, 1.0]          |
-| $L_t$         | $t \in$ [0.0, 5.0]           |
-| Radius        | $r_c$ = 0.02                 |
+| $L_t$         | $t \in$ [0.0, 10.0]          |
+| Radius        | $r_c$ = 0.01                 |
 | Centre        | ($x_c$, $y_c$) = (-0.5, 0.0) |
 | Cells         | $n_{cells}$ ≈ 100000         |
 
