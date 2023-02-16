@@ -18,7 +18,7 @@ x2 = 1. # right domain limit
 y1 = -1. # bottom domain limit
 y2 = 1. # top domain limit
 res = 1000 # interpolation resolution
-minval = 1.8 # minimum display value
+minval = 1.4 # minimum display value
 maxval = .2 # maximum display value
 
 plt.figure(figsize=(2*6.4, 2*4.8))
