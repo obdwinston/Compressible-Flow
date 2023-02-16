@@ -8,7 +8,7 @@ program euler
 
     real, parameter :: g = 1.4
     real, parameter :: r = 1.
-    real, parameter :: u = 1.2
+    real, parameter :: u = 1.
     real, parameter :: v = 0.
     real, parameter :: p = 1./g
 
