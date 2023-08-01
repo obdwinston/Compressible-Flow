@@ -1,5 +1,3 @@
-# Roe Approximate Riemann Solver
-
 # HLL Approximate Riemann Solver
 
 https://user-images.githubusercontent.com/104728656/215265995-4928992b-e33f-423a-94d8-b56625bb4769.mp4
