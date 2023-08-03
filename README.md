@@ -1,5 +1,7 @@
 # Roe Approximate Riemann Solver
 
+![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/4834fa56-b3db-4360-be1a-0568befd4f5f)
+
 # HLL Approximate Riemann Solver
 
 https://user-images.githubusercontent.com/104728656/215265995-4928992b-e33f-423a-94d8-b56625bb4769.mp4
