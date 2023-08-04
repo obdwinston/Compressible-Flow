@@ -1,5 +1,7 @@
 # Roe Approximate Riemann Solver
 
+https://github.com/obdwinston/Compressible-Flow/assets/104728656/f74f930d-8189-48a7-b372-813bd94c9349
+
 | File          | Purpose                                                                     |
 | :---:         | :---                                                                        |
 | main.f90      | Main program containing functions and subroutines for 2D Euler flow solver. |
@@ -8,6 +10,8 @@
 | airfoil.geo   | File containing geometric information to generate mesh in Gmsh.             |
 | airfoil.su2   | File containing mesh information to input to main program.                  |
 | check.py      | Mesh visualisation program with Matplotlib to verify mesh.                  |
+
+![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/14116dcd-8e91-43ed-9f02-71b058a4c24c)
 
 ![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/67bc44fa-4182-4ab1-8b36-975101d80584)
 
