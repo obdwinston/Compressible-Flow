@@ -8,6 +8,8 @@
 | airfoil.geo   | File containing geometric information to generate mesh in Gmsh.             |
 | airfoil.su2   | File containing mesh information to input to main program.                  |
 
+![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/67bc44fa-4182-4ab1-8b36-975101d80584)
+
 ![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/4834fa56-b3db-4360-be1a-0568befd4f5f)
 
 # HLL Approximate Riemann Solver
