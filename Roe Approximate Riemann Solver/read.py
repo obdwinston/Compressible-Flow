@@ -12,8 +12,8 @@ ymin = 24.  # size field minimum y-coordinate
 ymax = 26.  # size field maximum y-coordinate
 
 write = 100  # write interval
-frames = 15000 # number of frames
-duration = 20.  # animation duration
+frames = 37594 # number of frames
+duration = 25.  # animation duration
 resolution = 100  # figure resolution
 
 # program start
