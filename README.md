@@ -1,5 +1,13 @@
 # Roe Approximate Riemann Solver
 
+| File          | Purpose                                                         |
+| :---:         | :---                                                            |
+| main.f90      | Main program containing functions and subroutines.              |
+| read.py       | Post-processing program to create Mach animation.               |
+| airfoil.py    | NACA airfoil generation program to create .geo file for Gmsh.   |
+| airfoil.geo   | File containing geometric information to generate mesh in Gmsh. |
+| airfoil.su2   | File containing mesh information to input to main program.      |
+
 ![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/4834fa56-b3db-4360-be1a-0568befd4f5f)
 
 # HLL Approximate Riemann Solver
