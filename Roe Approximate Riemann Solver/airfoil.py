@@ -78,7 +78,6 @@ for i in range(len(X) - 1):
     geo.write('Line(%d) = {%d, %d};\n' % (i + 5, i + 5, i + 6))
 geo.write('Line(%d) = {%d, %d};\n' % (len(X) + 4, len(X) + 4, 5))
 
-
 # curve loops and plane surface
 geo.write('\n// curve loops and plane surface\n\n')
 geo.write('Curve Loop(1) = {1, 2, 3, 4};\n')
