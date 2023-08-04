@@ -6,15 +6,15 @@ import numpy as np
 M = .00  # maximum camber [% chord]
 P = .00  # maximum camber position [% chord]
 t = .12  # thickness [% chord]
-C = 1.  # chord length [m]
+C = 1.  # chord length
 
 n = 100  # number of panels
-a = m.radians(0.)  # angle of attack [rad]
-xle = 24.5  # leading edge x-coordinate [m]
-yle = 25.  # leading edge y-coordinate [m]
+a = m.radians(0.)  # angle of attack
+xle = 24.5  # leading edge x-coordinate
+yle = 25.  # leading edge y-coordinate
 
-L = 50.  # domain length [m]
-H = 50.  # domain height [m]
+L = 50.  # domain length
+H = 50.  # domain height
 
 sft = 25.  # size field thickness
 sfin = .004  # size field internal element size
