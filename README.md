@@ -1,8 +1,6 @@
 # Roe Approximate Riemann Solver
 
-https://github.com/obdwinston/Compressible-Flow/assets/104728656/f74f930d-8189-48a7-b372-813bd94c9349
-
-**Program Files**
+## Program Files
 
 | File          | Purpose                                                                     |
 | :---:         | :---                                                                        |
@@ -13,11 +11,25 @@ https://github.com/obdwinston/Compressible-Flow/assets/104728656/f74f930d-8189-4
 | airfoil.su2   | File containing mesh information to input to main program.                  |
 | check.py      | Mesh visualisation program with Matplotlib to verify mesh.                  |
 
+## Program Verification
+
+### NACA Airfoil
+
+https://github.com/obdwinston/Compressible-Flow/assets/104728656/f74f930d-8189-48a7-b372-813bd94c9349
+
 ![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/14116dcd-8e91-43ed-9f02-71b058a4c24c)
 
-![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/67bc44fa-4182-4ab1-8b36-975101d80584)
+### Diamond Wedge Airfoil
 
-![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/4834fa56-b3db-4360-be1a-0568befd4f5f)
+https://github.com/obdwinston/Compressible-Flow/assets/104728656/67043caa-0926-450b-a79d-1ddc554d24ef
+
+![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/5c63a59a-d6b2-469a-a84b-cae2185f3400)
+
+## Program Theory
+
+![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/3bd90d02-4c9b-41f5-b896-1a73c90102a4)
+
+![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/07bc1d6d-7e0d-4e9f-a5e1-6bdcde6603be)
 
 # HLL Approximate Riemann Solver
 
