@@ -19,11 +19,11 @@ https://github.com/obdwinston/Compressible-Flow/assets/104728656/f74f930d-8189-4
 
 ![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/14116dcd-8e91-43ed-9f02-71b058a4c24c)
 
-### Diamond Wedge Airfoil
+### Diamond Airfoil
 
 https://github.com/obdwinston/Compressible-Flow/assets/104728656/67043caa-0926-450b-a79d-1ddc554d24ef
 
-![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/5c63a59a-d6b2-469a-a84b-cae2185f3400)
+![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/875a6ce0-5df1-4085-a435-8b1d2cc7f9ed)
 
 ## Program Theory
 
