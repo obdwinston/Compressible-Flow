@@ -17,13 +17,13 @@
 
 https://github.com/obdwinston/Compressible-Flow/assets/104728656/f74f930d-8189-48a7-b372-813bd94c9349
 
-![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/14116dcd-8e91-43ed-9f02-71b058a4c24c)
+![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/3ff9166a-3f14-4626-a24d-3da8e4ebc5d0)
 
 ### Diamond Airfoil
 
 https://github.com/obdwinston/Compressible-Flow/assets/104728656/67043caa-0926-450b-a79d-1ddc554d24ef
 
-![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/875a6ce0-5df1-4085-a435-8b1d2cc7f9ed)
+![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/c6e0221a-a349-4e64-9687-d55e1db7538c)
 
 ## Program Theory
 
