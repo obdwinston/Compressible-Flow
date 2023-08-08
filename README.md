@@ -11,7 +11,7 @@
 | airfoil.su2   | File containing mesh information to input to main program.                  |
 | check.py      | Mesh visualisation program with Matplotlib to verify mesh.                  |
 
-## Solver Verification
+## Program Verification
 
 ### NACA Airfoil
 
@@ -25,7 +25,7 @@ https://github.com/obdwinston/Compressible-Flow/assets/104728656/67043caa-0926-4
 
 ![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/c6e0221a-a349-4e64-9687-d55e1db7538c)
 
-## Solver Theory
+### Solver Theory
 
 ![image](https://github.com/obdwinston/Compressible-Flow/assets/104728656/3bd90d02-4c9b-41f5-b896-1a73c90102a4)
 
