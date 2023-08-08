@@ -1,8 +1,6 @@
 import math as m
 import numpy as np
 
-# airfoil parameters
-
 M = .00  # maximum camber [% chord]
 P = .00  # maximum camber position [% chord]
 t = .12  # thickness [% chord]
