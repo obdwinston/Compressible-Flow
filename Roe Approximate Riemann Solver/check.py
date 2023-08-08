@@ -1,8 +1,6 @@
 import math as m
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.interpolate import griddata
-import moviepy.editor as mpy
 
 mesh = 'airfoil.su2'  # mesh file
 
