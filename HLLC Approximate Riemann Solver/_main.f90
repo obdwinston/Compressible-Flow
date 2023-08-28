@@ -306,11 +306,7 @@ contains
 
         logical :: check
 
-        if (nxL <= i .and. i <= nxR .and. nyB <= j .and. j <= nyT) then
-            check = .true.
-        else
-            check = .false.
-        end if
+        check = nxL <= i .and. i <= nxR .and. nyB <= j .and. j <= nyT
     
     end function in_square
 
