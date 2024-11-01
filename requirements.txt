@@ -1,0 +1,9 @@
+# fortran
+openmpi
+opencoarrays
+
+# python
+gmsh
+numpy
+matplotlib
+scipy
