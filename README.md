@@ -1,4 +1,8 @@
-### macOS
+## References
+
+[1] Toro (2009). _Riemann Solvers and Numerical Methods for Fluid Dynamics: A Practical Introduction._  
+[2] Curcic (2021). _Modern Fortran: Building Efficient Parallel Applications._  
+[3] Pulliam (1986). _Artificial Dissipation Models for the Euler Equations._
 
 ```bash
 git clone https://github.com/obdwinston/Compressible-Flow.git && cd Compressible-Flow && chmod +x run.sh && ./run.sh
