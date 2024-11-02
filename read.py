@@ -7,8 +7,6 @@ xb = [24., 26.]     # grid x-bounds
 yb = [24., 26.]     # grid y-bounds
 res = 200           # grid resolution
 fps = 25            # frames per second
-verify = False      # verification plot
-label = ''          # verification label
 
 # read configuration
 
@@ -34,9 +32,6 @@ plt.title('Pressure Coefficient', fontweight='bold')
 plt.xlabel('$c$')
 plt.ylabel('$-C_{p}$')
 plt.plot(nxy[:, 0] - 24.5, cp, lw=3, label='Current')
-if verify:
-    cpv = np.loadtxt('data/cpv.txt')
-    plt.plot(cpv[:, 0], cpv[:, 1], lw=3, label=label)
 plt.grid('on')
 plt.legend()
 plt.savefig('data/cp.png')

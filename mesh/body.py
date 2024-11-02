@@ -66,5 +66,5 @@ def custom():
     plt.axis('equal')
     plt.show()
 
-airfoil(M, P, t, n)
-# diamond(a, n)
+# airfoil(M, P, t, n)
+diamond(a, n)
