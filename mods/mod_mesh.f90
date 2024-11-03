@@ -191,9 +191,9 @@ contains
             n1 = self % cells(i) % cell_nodes(1)
             n2 = self % cells(i) % cell_nodes(2)
             n3 = self % cells(i) % cell_nodes(3)
-            call add_face(c1, l1, l2, n1, n2)
-            call add_face(c1, l1, l2, n2, n3)
-            call add_face(c1, l1, l2, n3, n1)
+            call set_face(c1, l1, l2, n1, n2)
+            call set_face(c1, l1, l2, n2, n3)
+            call set_face(c1, l1, l2, n3, n1)
         end do
         self % face_types(size(self % face_types)) = 'INTERIOR'
         self % n_face_types(size(self % n_face_types)) = &
@@ -368,7 +368,7 @@ contains
         end do
     end subroutine set_node_components
 
-    subroutine add_face(c1, l1, l2, n1, n2)
+    subroutine set_face(c1, l1, l2, n1, n2)
         character(20), dimension(:), allocatable, intent(in out) :: c1
         integer(int32), dimension(:), allocatable, intent(in out) :: l1, l2
         integer(int32), intent(in) :: n1, n2
@@ -384,7 +384,7 @@ contains
             l1 = [l1, n1]
             l2 = [l2, n2]
         end if
-    end subroutine add_face
+    end subroutine set_face
 
     pure function get_face(l1, l2, n1, n2) result(res)
         integer(int32), dimension(:), allocatable, intent(in) :: l1, l2
