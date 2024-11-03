@@ -136,7 +136,7 @@ contains
         real(real64) :: Vc, Sf, sign
         real(real64), dimension(2) :: nf
         real(real64), dimension(4) :: Ff
-        Uc0(:, :) = Uc(:, :)
+        Uc0 = Uc
         do concurrent(i = 1:msh % n_cells)
             Vc = msh % cells(i) % cell_volume
             Ff = [0., 0., 0., 0.]
