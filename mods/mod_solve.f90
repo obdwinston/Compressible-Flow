@@ -139,7 +139,7 @@ contains
         Uc0 = Uc
         do concurrent(i = 1:msh % n_cells)
             Vc = msh % cells(i) % cell_volume
-            Ff = [0., 0., 0., 0.]
+            Ff = 0.
             do concurrent(j = 1:3)
                 fj = msh % cells(i) % cell_faces(j)
                 Sf = msh % faces(fj) % face_area
