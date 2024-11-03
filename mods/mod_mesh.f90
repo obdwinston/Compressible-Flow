@@ -145,7 +145,7 @@ contains
         integer(int32) :: i, k
         character(20), dimension(:), allocatable :: c1
         integer(int32), dimension(:), allocatable :: l1, l2
-        c1 = [character(20) :: ] ! type list
+        c1 = [character(20) ::] ! type list
         l1 = [integer(int32) ::] ! node list
         l2 = [integer(int32) ::] ! node list
         read(10, *) line, k
