@@ -62,7 +62,7 @@ contains
         real(real64) :: wnj
         real(real64), dimension(4) :: Unj
         do concurrent(i = 1:msh % n_nodes)
-            Unj = [0., 0., 0., 0.]
+            Unj = 0.
             do concurrent(j = 1:msh % nodes(i) % n_node_cells)
                 cj = msh % nodes(i) % node_cells(j)
                 wnj = msh % nodes(i) % node_cell_weights(j)
@@ -121,6 +121,8 @@ contains
             ! freestream faces
             else if (trim(msh % faces(i) % face_type) == 'FREESTREAM') then
                 UR_hat = get_transform(U0, nf)
+            else
+                error stop 'Error: invalid face type'
             end if
             F(i, :) = get_HLLC_flux(UL_hat, UR_hat, config % g)
         end do
