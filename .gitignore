@@ -20,6 +20,7 @@ __pycache__/
 
 .venv/
 bin/
+data/
 *.mod
 mesh.geo
 mesh.su2
