@@ -64,9 +64,9 @@ contains
         call set_surface_nodes(self, body_file)
         call set_cell_faces(self)
         call set_face_cells(self)
-        call set_face_components(self)
-        call set_cell_components(self)
-        call set_node_components(self)
+        call set_cell_components(self) ! order important
+        call set_face_components(self) ! order important
+        call set_node_components(self) ! order important
         call set_gradient_components(self)
     end subroutine set_mesh
 
