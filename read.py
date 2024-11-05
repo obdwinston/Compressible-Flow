@@ -51,6 +51,7 @@ values = np.sqrt(data[indices, 1]**2 + data[indices, 2]**2)
 grid_values = griddata((x[indices], y[indices]), values, (grid_x, grid_y), method='linear')
 
 fig, ax = plt.subplots(figsize=(8, 6))
+ax.set_aspect('equal')
 ax.set_title('Mach Number', fontweight='bold')
 contour = ax.contourf(grid_x, grid_y, grid_values, levels=res, cmap='jet')
 cbar = plt.colorbar(contour, ax=ax)
@@ -62,6 +63,7 @@ def update(frame):
     grid_values = griddata((x[indices], y[indices]), values, (grid_x, grid_y), method='linear')
     
     ax.cla()
+    ax.set_aspect('equal')
     ax.set_title('Mach Number', fontweight='bold')
     contour = ax.contourf(grid_x, grid_y, grid_values, levels=res, cmap='jet')
     cbar.update_normal(contour)
