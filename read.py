@@ -5,6 +5,7 @@ from scipy.interpolate import griddata
 
 xb = [24., 26.]     # grid x-bounds
 yb = [24., 26.]     # grid y-bounds
+fsz = [8, 6]        # figure size
 res = 200           # grid resolution
 fps = 25            # frames per second
 
@@ -50,7 +51,7 @@ data = np.loadtxt(f'data/Wc_{nw:010d}.txt')
 values = np.sqrt(data[indices, 1]**2 + data[indices, 2]**2)
 grid_values = griddata((x[indices], y[indices]), values, (grid_x, grid_y), method='linear')
 
-fig, ax = plt.subplots(figsize=(8, 6))
+fig, ax = plt.subplots(figsize=fsz)
 ax.set_aspect('equal')
 ax.set_title('Mach Number', fontweight='bold')
 contour = ax.contourf(grid_x, grid_y, grid_values, levels=res, cmap='jet')
