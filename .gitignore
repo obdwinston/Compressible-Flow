@@ -25,4 +25,3 @@ data/
 mesh.geo
 mesh.su2
 mesh.txt
-data/*.txt
