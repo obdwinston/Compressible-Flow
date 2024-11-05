@@ -46,8 +46,7 @@ geo.write('Plane Surface(1) = {1, 2};\n')
 
 geo.write('\n// physical groups\n\n')
 geo.write('Physical Curve("FREESTREAM", %d) = {1, 2, 3, 4};\n' % (len(X) + 5))
-geo.write('Physical Curve("SLIPWALL", %d) = {' % (
-    len(X) + 6) + body + '};\n')
+geo.write('Physical Curve("SLIPWALL", %d) = {' % (len(X) + 6) + body + '};\n')
 
 geo.write('\n// size field\n\n')
 geo.write('Mesh.MeshSizeFactor = %.10f;\n' % esf)
