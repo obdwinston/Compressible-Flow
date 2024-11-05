@@ -1,15 +1,18 @@
 import os
+import math as m
 import numpy as np
 import matplotlib.pyplot as plt
 
-M = .00     # maximum camber [% chord]
-P = .00     # maximum camber position [% chord]
-t = .12     # thickness [% chord]
-a = 15.     # half-angle (only for diamond airfoil)
-n = 200     # number of panels
+M = .00             # maximum camber [% chord]
+P = .00             # maximum camber position [% chord]
+t = .12             # thickness [% chord]
+a = m.radians(5.)   # angle of attack [deg]
+ha = 15.            # half-angle (only for diamond airfoil)
+n = 200             # number of panels
 
 def airfoil(M, P, t, n):
-    x = np.linspace(0, 1, n//2)
+    x = (1 - np.cos(np.linspace(0, m.pi, int(n/2))))/2  # cosine spacing
+    # x = np.linspace(0, 1, n//2) # linear spacing
     y = np.zeros(n//2)
     for i in range(len(x)):
         if x[i] < P:
@@ -19,8 +22,10 @@ def airfoil(M, P, t, n):
     a0, a1, a2, a3, a4 = .2969, -.1260, -.3516, .2843, -.1036
     yt = t/.2*(a0*x**.5 + a1*x + a2*x**2 + a3*x**3 + a4*x**4)
     yu, yl = y + yt, y - yt
-    X = np.concatenate((x[1:-1], np.flip(x[:])))
-    Y = np.concatenate((yu[1:-1], np.flip(yl[:])))
+    xa = np.concatenate((x[1:-1], np.flip(x[:])))
+    ya = np.concatenate((yu[1:-1], np.flip(yl[:])))
+    X = xa*m.cos(a) + ya*m.sin(a)
+    Y = -xa*m.sin(a) + ya*m.cos(a)
     XY = np.column_stack((X, Y))
     np.savetxt('mesh/body.txt', XY, fmt='%8.5f')
     custom()
@@ -57,6 +62,6 @@ def custom():
 
 if not os.path.exists('mesh/body.txt'):
     airfoil(M, P, t, n)
-    # diamond(a, n)
+    # diamond(ha, n)
 else:
     custom()
