@@ -20,20 +20,18 @@ module mod_utils
     
 contains
 
-    pure function get_limiter(a, b) result(res)
-        real(real64), dimension(4), intent(in) :: a, b
-        real(real64), dimension(4) :: res
+    pure elemental function get_limiter(a, b) result(res)
+        real(real64), intent(in) :: a, b
+        real(real64) :: res
         integer(int32) :: i
         real(real64) :: numerator, denominator
-        do i = 1, 4
-            if (a(i)*b(i) > 0.) then
-                numerator = a(i)*(b(i)**2 + 1e-15) + b(i)*(a(i)**2 + 1e-15)
-                denominator = a(i)**2 + b(i)**2 + 2e-15
-                res(i) = numerator/denominator
-            else
-                res(i) = 0.
-            end if
-        end do
+        if (a*b > 0.) then
+            numerator = a*(b**2 + 1e-15) + b*(a**2 + 1e-15)
+            denominator = a**2 + b**2 + 2e-15
+            res = numerator/denominator
+        else
+            res = 0.
+        end if
     end function get_limiter
 
     pure function get_primitive(U, g) result(res)
