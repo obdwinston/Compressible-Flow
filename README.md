@@ -46,7 +46,7 @@ Execute program (for macOS users):
 chmod +x run.sh && ./run.sh
 ```
 
-For Windows users, you need to modify `run.sh` accordingly before executing the program. For custom bodies, coordinates in `mesh/body.txt` should be `x y` space-delimited and in clockwise order, with no repeated points or intersecting lines.
+For Windows users, you need to modify `run.sh` accordingly before executing the program. For custom bodies, coordinates in `mesh/body.txt` should be `x y` space-delimited and in clockwise order, with no repeated points or intersecting lines. To visualise the mesh, download Gmsh [here](https://gmsh.info/#Download). Open the `.geo` file and select `Mesh > 2D` to generate the mesh.
 
 ## Solver Verification
 
