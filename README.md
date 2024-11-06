@@ -46,7 +46,12 @@ Execute program (for macOS users):
 chmod +x run.sh && ./run.sh
 ```
 
-For Windows users, you need to modify `run.sh` accordingly before executing the program. For custom bodies, coordinates in `mesh/body.txt` should be `x y` space-delimited and in clockwise order, with no repeated points or intersecting lines. To visualise the mesh, download Gmsh [here](https://gmsh.info/#Download). Open the `.geo` file and select `Mesh > 2D` to generate the mesh.
+For Windows users, you need to modify `run.sh` accordingly before executing the program.
+
+Additional notes:
+
+1. For custom bodies, coordinates in `body.txt` should be `x y` space-delimited and in clockwise order, with no repeated points or intersecting lines. The `body.py` script will automatically scale the body to unit length.
+2. To visualise the generated mesh, you need to first download [Gmsh](https://gmsh.info/#Download). After installation, open the `.geo` file and select `Mesh > 2D` to show the mesh. For subsequent changes to the `.geo` file, select `Geometry > Reload Script` before visualising the changes with `Mesh > 2D`.
 
 ## Solver Verification
 
