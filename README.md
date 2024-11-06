@@ -34,21 +34,21 @@ root/
 └── requirements.txt        # dependencies for solver
 ```
 
-Clone repository:
+**Clone repository:**
 
 ```bash
 git clone https://github.com/obdwinston/Compressible-Flow.git && cd Compressible-Flow
 ```
 
-Execute program (for macOS users):
+**Execute program (for macOS users):**
 
 ```bash
 chmod +x run.sh && ./run.sh
 ```
 
-For Windows users, you need to modify `run.sh` accordingly before executing the program.
+_For Windows users, you need to modify `run.sh` accordingly before executing the program._
 
-Additional notes:
+**Additional notes:**
 
 1. For custom bodies, coordinates in `body.txt` should be `x y` space-delimited and in clockwise order, with no repeated points or intersecting lines. The `body.py` script will automatically scale the body to unit length.
 2. To visualise the generated mesh, you need to first download [Gmsh](https://gmsh.info/#Download). After installation, open the `.geo` file and select `Mesh > 2D` to show the mesh. For subsequent changes to the `.geo` file, select `Geometry > Reload Script` before visualising the changes with `Mesh > 2D`.
