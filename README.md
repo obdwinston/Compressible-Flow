@@ -2,7 +2,7 @@
 
 This program implements a Riemann solver for the Euler equations on an unstructured triangular mesh using the finite volume method. The HLLC fluxes are computed by solving the x-split Riemann problem at each face, taking advantage of the rotational invariance of the flux vectors. The solver employs an explicit multi-stage Runge-Kutta temporal discretisation, along with a multi-slope MUSCL gradient reconstruction and van Albada limiter to ensure stability and accuracy, especially near discontinuities.
 
-![](https://github.com/user-attachments/assets/74e6c744-b7af-4530-bac7-a2e9dd163051)
+![](https://github.com/user-attachments/assets/88361011-6da0-4536-84ec-338aef856867)
 
 ## Program Files
 
