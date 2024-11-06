@@ -40,7 +40,7 @@ contains
         real(real64), dimension(:, :), intent(in) :: Uc
         type(Mesh), intent(in) :: msh
         integer(int32) :: i
-        real(real64) :: dt, a, u
+        real(real64) :: dt, a, u, x
         real(real64), dimension(4) :: W
         if (config % CFL /= 0.) then
             config % dt = 1.
@@ -48,7 +48,8 @@ contains
                 W = get_primitive(Uc(i, :), config % g)
                 a = sqrt(config % g*W(4)/W(1))
                 u = sqrt(W(2)**2 + W(3)**2)
-                dt = config % CFL*msh % cells(i) % cell_volume/(u + a)
+                x = sqrt(msh % cells(i) % cell_volume)
+                dt = config % CFL*x/(u + a)
                 if (config % dt > dt) config % dt = dt
             end do
         end if

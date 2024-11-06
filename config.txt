@@ -4,5 +4,5 @@ g=      1.4         ! heat capacity ratio
 dt=     .0001       ! time step
 nt=     25000       ! time iterations
 nw=     100         ! write interval
-CFL=    0.          ! CFL number (set 0. for fixed time step)
+CFL=    .1          ! CFL number (set 0. for fixed time step)
 nRK=    4           ! RK time stages (set 4 or 5)

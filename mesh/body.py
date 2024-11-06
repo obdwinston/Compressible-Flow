@@ -61,7 +61,7 @@ def custom():
     plt.show()
 
 if not os.path.exists('mesh/body.txt'):
-    airfoil(M, P, t, n)
-    # diamond(ha, n)
+    # airfoil(M, P, t, n)
+    diamond(ha, n)
 else:
     custom()
