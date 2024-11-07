@@ -11,15 +11,15 @@ fps = 25            # frames per second
 
 # read configuration
 
-with open("config.txt", "r") as file:
+with open('config.txt', 'r') as file:
     for line in file:
-        if line.startswith("M="):
+        if line.startswith('M='):
             M = float(line.split()[1])
-        elif line.startswith("g="):
+        elif line.startswith('g='):
             g = float(line.split()[1])
-        elif line.startswith("nt="):
+        elif line.startswith('nt='):
             nt = int(line.split()[1])
-        elif line.startswith("nw="):
+        elif line.startswith('nw='):
             nw = int(line.split()[1])
 
 # surface plot
