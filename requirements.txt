@@ -2,3 +2,4 @@ gmsh
 numpy
 matplotlib
 scipy
+moviepy
