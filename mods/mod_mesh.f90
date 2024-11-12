@@ -83,6 +83,7 @@ contains
         write(10, *) self % n_face_types
         write(10, *) size(self % surface_nodes)
         write(10, *) self % surface_nodes
+        close(10)
     end subroutine save_mesh
     
     subroutine load_mesh(self, load_file)
